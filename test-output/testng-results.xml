@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T15:46:03 IST" name="Suite" finished-at="2024-11-25T15:46:56 IST" duration-ms="52546">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T15:46:03 IST" name="Test" finished-at="2024-11-25T15:46:56 IST" duration-ms="52546">
+      <class name="TestCases.TC1_FormFillingTestCases">
+        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:03 IST" name="SetUpUrl" finished-at="2024-11-25T15:46:09 IST" duration-ms="5457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpUrl -->
+        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:09 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-25T15:46:22 IST" duration-ms="13145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Koushik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[koushikn@143536.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567893]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karnataka,Davanagere]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
+        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:22 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-25T15:46:35 IST" duration-ms="13047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Swathi@143536.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567893]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karnataka,Bangalore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
+        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:35 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-25T15:46:49 IST" duration-ms="13623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramesh@143536.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567893]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karnataka,Ballari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
+        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:49 IST" name="mainTearDown" finished-at="2024-11-25T15:46:49 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTearDown -->
+      </class> <!-- TestCases.TC1_FormFillingTestCases -->
+      <class name="TestCases.TC2_Blogger">
+        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC2_Blogger@29215f06]" started-at="2024-11-25T15:46:49 IST" name="SetUpUrl" finished-at="2024-11-25T15:46:53 IST" duration-ms="4421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpUrl -->
+        <test-method signature="Validate_footer_ThemImage_clickable()[pri:0, instance:TestCases.TC2_Blogger@29215f06]" started-at="2024-11-25T15:46:53 IST" name="Validate_footer_ThemImage_clickable" finished-at="2024-11-25T15:46:56 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_footer_ThemImage_clickable -->
+        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC2_Blogger@29215f06]" started-at="2024-11-25T15:46:56 IST" name="mainTearDown" finished-at="2024-11-25T15:46:56 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTearDown -->
+      </class> <!-- TestCases.TC2_Blogger -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

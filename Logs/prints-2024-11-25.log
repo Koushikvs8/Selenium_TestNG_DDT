@@ -1,0 +1,5 @@
+15:46:49.046 [main] INFO  TestCases.TC1_FormFillingTestCases - the Execution is endedand is launched for specfic to this case"
+15:46:53.642 [main] INFO  TestCases.TC2_Blogger - the Execution is started and https://testautomationpractice.blogspot.com/ is launched for specfic to this case
+15:46:53.693 [main] INFO  TestCases.TC2_Blogger - user is Navigated to Homepage
+15:46:53.773 [main] INFO  TestCases.TC2_Blogger - user clicked on the BloggerLink at Footer
+15:46:53.807 [main] INFO  TestCases.TC2_Blogger - user is navigated to Blogger page
