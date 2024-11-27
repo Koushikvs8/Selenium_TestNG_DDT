@@ -1,1 +1,6 @@
-18:15:38.826 [main] INFO  TestCases.TC1_FormFillingTestCases - user is navigated to  Homepage 
+17:59:29.135 [main] INFO  TestCases.TC3_FormFillingDDT - Filling the form with testdata
+17:59:31.730 [main] INFO  TestCases.TC3_FormFillingDDT - user is navigated to  Homepage 
+17:59:42.241 [main] INFO  TestCases.TC3_FormFillingDDT - Filling the form with testdata
+17:59:44.772 [main] INFO  TestCases.TC3_FormFillingDDT - user is navigated to  Homepage 
+17:59:55.246 [main] INFO  TestCases.TC3_FormFillingDDT - Filling the form with testdata
+17:59:57.792 [main] INFO  TestCases.TC3_FormFillingDDT - the Execution is endedand is launched for specfic to this case"

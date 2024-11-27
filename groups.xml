@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<groups>
+<run>
+<include name="master"></include>
+</run>
+</groups>
+
+
+
   <test thread-count="5" name="Test">
   <parameter name="browserTestNG" value="chrome"/>
     <classes>
 
       <class name="TestCases.TC1_FormFillingTestCases"/>
       <class name="TestCases.TC2_Blogger"/>
-      <class name="TC3_FormFillingDDT"/>
+       <class name="TestCases.TC3_FormFillingDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

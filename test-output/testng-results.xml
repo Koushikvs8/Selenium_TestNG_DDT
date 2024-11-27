@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T15:46:03 IST" name="Suite" finished-at="2024-11-25T15:46:56 IST" duration-ms="52546">
+  <suite started-at="2024-11-26T17:58:41 IST" name="Suite" finished-at="2024-11-26T17:59:58 IST" duration-ms="76912">
     <groups>
+      <group name="Regression">
+        <method signature="TC2_Blogger.Validate_footer_ThemImage_clickable()[pri:0, instance:TestCases.TC2_Blogger@771a660]" name="Validate_footer_ThemImage_clickable" class="TestCases.TC2_Blogger"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TC1_FormFillingTestCases.Validate_UserAbleTo_Fill_Details()[pri:0, instance:TestCases.TC1_FormFillingTestCases@72e5a8e]" name="Validate_UserAbleTo_Fill_Details" class="TestCases.TC1_FormFillingTestCases"/>
+      </group> <!-- smoke -->
+      <group name="master">
+        <method signature="TC1_FormFillingTestCases.Validate_UserAbleTo_Fill_Details()[pri:0, instance:TestCases.TC1_FormFillingTestCases@72e5a8e]" name="Validate_UserAbleTo_Fill_Details" class="TestCases.TC1_FormFillingTestCases"/>
+        <method signature="TC2_Blogger.Validate_footer_ThemImage_clickable()[pri:0, instance:TestCases.TC2_Blogger@771a660]" name="Validate_footer_ThemImage_clickable" class="TestCases.TC2_Blogger"/>
+        <method signature="TC3_FormFillingDDT.Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC3_FormFillingDDT@2d52216b]" name="Validate_UserAbleTo_Fill_Details" class="TestCases.TC3_FormFillingDDT"/>
+      </group> <!-- master -->
     </groups>
-    <test started-at="2024-11-25T15:46:03 IST" name="Test" finished-at="2024-11-25T15:46:56 IST" duration-ms="52546">
-      <class name="TestCases.TC1_FormFillingTestCases">
-        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:03 IST" name="SetUpUrl" finished-at="2024-11-25T15:46:09 IST" duration-ms="5457" status="PASS">
+    <test started-at="2024-11-26T17:58:41 IST" name="Test" finished-at="2024-11-26T17:59:58 IST" duration-ms="76912">
+      <class name="TestCases.TC3_FormFillingDDT">
+        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC3_FormFillingDDT@2d52216b]" started-at="2024-11-26T17:59:13 IST" name="SetUpUrl" finished-at="2024-11-26T17:59:18 IST" duration-ms="5368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpUrl -->
-        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:09 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-25T15:46:22 IST" duration-ms="13145" status="PASS">
+        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC3_FormFillingDDT@2d52216b]" started-at="2024-11-26T17:59:18 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-26T17:59:31 IST" duration-ms="13175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
-        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:22 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-25T15:46:35 IST" duration-ms="13047" status="PASS">
+        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC3_FormFillingDDT@2d52216b]" started-at="2024-11-26T17:59:31 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-26T17:59:44 IST" duration-ms="13042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
-        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:35 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-25T15:46:49 IST" duration-ms="13623" status="PASS">
+        <test-method signature="Validate_UserAbleTo_Fill_Details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC3_FormFillingDDT@2d52216b]" started-at="2024-11-26T17:59:44 IST" name="Validate_UserAbleTo_Fill_Details" data-provider="DirectDP" finished-at="2024-11-26T17:59:57 IST" duration-ms="13018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,13 +122,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
-        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC1_FormFillingTestCases@1151e434]" started-at="2024-11-25T15:46:49 IST" name="mainTearDown" finished-at="2024-11-25T15:46:49 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC3_FormFillingDDT@2d52216b]" started-at="2024-11-26T17:59:57 IST" name="mainTearDown" finished-at="2024-11-26T17:59:58 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainTearDown -->
-      </class> <!-- TestCases.TC1_FormFillingTestCases -->
-      <class name="TestCases.TC2_Blogger">
-        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC2_Blogger@29215f06]" started-at="2024-11-25T15:46:49 IST" name="SetUpUrl" finished-at="2024-11-25T15:46:53 IST" duration-ms="4421" status="PASS">
+      </class> <!-- TestCases.TC3_FormFillingDDT -->
+      <class name="TestCases.TC1_FormFillingTestCases">
+        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC1_FormFillingTestCases@72e5a8e]" started-at="2024-11-26T17:58:41 IST" name="SetUpUrl" finished-at="2024-11-26T17:58:48 IST" duration-ms="7268" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,11 +139,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpUrl -->
-        <test-method signature="Validate_footer_ThemImage_clickable()[pri:0, instance:TestCases.TC2_Blogger@29215f06]" started-at="2024-11-25T15:46:53 IST" name="Validate_footer_ThemImage_clickable" finished-at="2024-11-25T15:46:56 IST" duration-ms="2350" status="PASS">
+        <test-method signature="Validate_UserAbleTo_Fill_Details()[pri:0, instance:TestCases.TC1_FormFillingTestCases@72e5a8e]" started-at="2024-11-26T17:58:48 IST" name="Validate_UserAbleTo_Fill_Details" finished-at="2024-11-26T17:59:01 IST" duration-ms="13173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_UserAbleTo_Fill_Details -->
+        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC1_FormFillingTestCases@72e5a8e]" started-at="2024-11-26T17:59:01 IST" name="mainTearDown" finished-at="2024-11-26T17:59:01 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTearDown -->
+      </class> <!-- TestCases.TC1_FormFillingTestCases -->
+      <class name="TestCases.TC2_Blogger">
+        <test-method is-config="true" signature="SetUpUrl(java.lang.String)[pri:0, instance:TestCases.TC2_Blogger@771a660]" started-at="2024-11-26T17:59:01 IST" name="SetUpUrl" finished-at="2024-11-26T17:59:10 IST" duration-ms="8624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpUrl -->
+        <test-method signature="Validate_footer_ThemImage_clickable()[pri:0, instance:TestCases.TC2_Blogger@771a660]" started-at="2024-11-26T17:59:10 IST" name="Validate_footer_ThemImage_clickable" finished-at="2024-11-26T17:59:12 IST" duration-ms="2543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_footer_ThemImage_clickable -->
-        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC2_Blogger@29215f06]" started-at="2024-11-25T15:46:56 IST" name="mainTearDown" finished-at="2024-11-25T15:46:56 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="mainTearDown()[pri:0, instance:TestCases.TC2_Blogger@771a660]" started-at="2024-11-26T17:59:12 IST" name="mainTearDown" finished-at="2024-11-26T17:59:13 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainTearDown -->

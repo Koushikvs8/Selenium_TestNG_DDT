@@ -28,7 +28,7 @@ public class BaseClass {
 	 public   Logger logger;  
 	           
 	        
-	@BeforeClass
+	@BeforeClass(groups = {"smoke","Regression","master"})
 	@Parameters("browserTestNG")  
 	 public void SetUpUrl(String browserTestNG ) throws IOException
 	    {
@@ -64,7 +64,7 @@ public class BaseClass {
 	    	
 	    }
 
-	@AfterClass
+	@AfterClass(groups = {"smoke","Regression","master"})
 	public void mainTearDown()
 	{
 		logger.info("the Execution is endedand is launched for specfic to this case\"");

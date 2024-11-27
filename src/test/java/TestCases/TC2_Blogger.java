@@ -14,7 +14,7 @@ import TestBase.BaseClass;
 
 
 public class TC2_Blogger extends BaseClass  {
-  @Test()
+  @Test(groups = {"Regression","master"})
   public void Validate_footer_ThemImage_clickable()
   {
 	 HomePage homepage =new HomePage(driver);

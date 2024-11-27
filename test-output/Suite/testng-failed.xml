@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <parameter name="browserTestNG" value="chrome"/>
     <classes>
-      <class name="TestCases.TC2_Blogger">
-        <methods>
-          <include name="Validate_footer_ThemImage_clickable"/>
-          <include name="SetUpUrl"/>
-          <include name="mainTearDown"/>
-        </methods>
-      </class> <!-- TestCases.TC2_Blogger -->
       <class name="TestCases.TC1_FormFillingTestCases">
         <methods>
           <include name="SetUpUrl"/>
           <include name="mainTearDown"/>
-          <include name="Validate_UserAbleTo_Fill_Details" invocation-numbers="2 3"/>
+          <include name="Validate_UserAbleTo_Fill_Details" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- TestCases.TC1_FormFillingTestCases -->
     </classes>
