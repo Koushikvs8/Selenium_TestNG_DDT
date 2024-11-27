@@ -7,6 +7,8 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.bidi.module.Browser;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -38,17 +40,29 @@ public class BaseClass {
 	    	
 	    	prop =new Properties();
 	    	prop.load(file);
-	    	  String browser=prop.getProperty("Browser");
 	    	
-	    	if(browserTestNG.equalsIgnoreCase("chrome"))
+	    	//////////////////
+	    	String browser ;
+	    	  String browserProty=prop.getProperty("Browser");
+	   
+	    	////////////////////////////////Dynamic browser selection/////////////////////
+	    	 if (browserTestNG==null) {
+	    		 
+	    		 browser=browserProty;
+			} else {
+				browser=browserTestNG;
+			}
+	    	  /////////////////////////////////////
+	    	  
+	    	if(browser.equalsIgnoreCase("chrome"))
 	    	{
 	    		driver=new ChromeDriver();
 	    	}
-	    	else if(browserTestNG.equalsIgnoreCase("FirFox"))
+	    	else if(browser.equalsIgnoreCase("FirFox"))
 	    	{
 	    		driver =new FirefoxDriver();
 	    	}
-	    	else if(browserTestNG.equalsIgnoreCase("Edge"))
+	    	else if(browser.equalsIgnoreCase("Edge"))
 	    	{
 	    		driver =new EdgeDriver();
 	    	}
@@ -70,4 +84,16 @@ public class BaseClass {
 		logger.info("the Execution is endedand is launched for specfic to this case\"");
 		driver.quit();;
 	}
+	/////////////////////////ScrenShotetaker///////////////////////
+	
+	public static String CaptureScreenShot()
+	{   
+		TakesScreenshot takesScreenshot= (TakesScreenshot)driver;
+	    File sourceFile=takesScreenshot.getScreenshotAs(OutputType.FILE);
+	    File targetFile= new File(System.getProperty("user.dir")+"\\Reports"+"ss.png");
+		sourceFile.renameTo(targetFile);
+		return System.getProperty("user.dir")+"\\Reports\\screenshots\\"+"ss.png";
+		
+	}
+	
 }

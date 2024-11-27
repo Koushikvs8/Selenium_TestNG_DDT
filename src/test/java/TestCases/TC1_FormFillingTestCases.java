@@ -21,6 +21,7 @@ public class TC1_FormFillingTestCases extends BaseClass {
 	    public void Validate_UserAbleTo_Fill_Details( ) throws InterruptedException {
 		
 		 HomePage homepage = new HomePage(driver);
+		 CaptureScreenShot();
 	     logger.info("user is navigated to  Homepage ");
 	 homepage.User_Form_Fill("koushik", "koushik@123@.com", "1233456789", "shivamogga", "male");
 	 logger.info("Filling the form with testdata");

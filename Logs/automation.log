@@ -1,6 +1,2 @@
-17:59:29.135 [main] INFO  TestCases.TC3_FormFillingDDT - Filling the form with testdata
-17:59:31.730 [main] INFO  TestCases.TC3_FormFillingDDT - user is navigated to  Homepage 
-17:59:42.241 [main] INFO  TestCases.TC3_FormFillingDDT - Filling the form with testdata
-17:59:44.772 [main] INFO  TestCases.TC3_FormFillingDDT - user is navigated to  Homepage 
-17:59:55.246 [main] INFO  TestCases.TC3_FormFillingDDT - Filling the form with testdata
-17:59:57.792 [main] INFO  TestCases.TC3_FormFillingDDT - the Execution is endedand is launched for specfic to this case"
+22:05:17.161 [main] INFO  TestCases.TC2_Blogger - the Execution is started and https://testautomationpractice.blogspot.com/ is launched for specfic to this case
+22:05:19.436 [main] INFO  TestCases.TC3_FormFillingDDT - the Execution is started and https://testautomationpractice.blogspot.com/ is launched for specfic to this case

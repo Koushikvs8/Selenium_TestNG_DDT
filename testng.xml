@@ -7,7 +7,7 @@
 
       <class name="TestCases.TC1_FormFillingTestCases"/>
       <class name="TestCases.TC2_Blogger"/>
-      <class name="TC3_FormFillingDDT"/>
+      <class name="TestCases.TC3_FormFillingDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
