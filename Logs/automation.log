@@ -1,2 +1,5 @@
-22:05:17.161 [main] INFO  TestCases.TC2_Blogger - the Execution is started and https://testautomationpractice.blogspot.com/ is launched for specfic to this case
-22:05:19.436 [main] INFO  TestCases.TC3_FormFillingDDT - the Execution is started and https://testautomationpractice.blogspot.com/ is launched for specfic to this case
+17:15:14.510 [main] INFO  TestCases.TC2_Blogger - user is Navigated to Homepage
+17:15:14.603 [main] INFO  TestCases.TC2_Blogger - user clicked on the BloggerLink at Footer
+17:15:14.638 [main] INFO  TestCases.TC2_Blogger - user is navigated to Blogger page
+17:15:18.239 [main] INFO  TestCases.TC2_Blogger - user is able to see the homepage of Blogger page
+17:15:18.517 [main] INFO  TestCases.TC2_Blogger - the Execution is endedand is launched for specfic to this case"

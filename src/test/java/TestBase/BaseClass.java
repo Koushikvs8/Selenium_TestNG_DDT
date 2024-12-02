@@ -90,10 +90,12 @@ public class BaseClass {
 	{   
 		TakesScreenshot takesScreenshot= (TakesScreenshot)driver;
 	    File sourceFile=takesScreenshot.getScreenshotAs(OutputType.FILE);
-	    File targetFile= new File(System.getProperty("user.dir")+"\\Reports"+"ss.png");
+	    File targetFile= new File(System.getProperty("user.dir")+"\\Reports\\screenshots\\"+"ss.png");
 		sourceFile.renameTo(targetFile);
 		return System.getProperty("user.dir")+"\\Reports\\screenshots\\"+"ss.png";
 		
 	}
+
+	
 	
 }

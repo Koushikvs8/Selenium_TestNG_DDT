@@ -26,7 +26,7 @@ public class TC2_Blogger extends BaseClass  {
 	 logger.info("user is navigated to Blogger page");
 	 Boolean result= bloggerPage .validateBloggerHomePage();
 	 logger.info("user is able to see the homepage of Blogger page");
-     Assert.assertTrue(result);
+     Assert.assertTrue(!result);
   }
   
 

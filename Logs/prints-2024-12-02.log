@@ -1,0 +1,5 @@
+17:12:26.636 [main] INFO  TestCases.TC2_Blogger - user clicked on the BloggerLink at Footer
+17:12:26.675 [main] INFO  TestCases.TC2_Blogger - user is navigated to Blogger page
+17:12:30.908 [main] INFO  TestCases.TC2_Blogger - user is able to see the homepage of Blogger page
+17:12:31.168 [main] INFO  TestCases.TC2_Blogger - the Execution is endedand is launched for specfic to this case"
+17:15:14.401 [main] INFO  TestCases.TC2_Blogger - the Execution is started and https://testautomationpractice.blogspot.com/ is launched for specfic to this case
