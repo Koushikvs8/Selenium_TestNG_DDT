@@ -3,7 +3,9 @@ package TestBase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
@@ -87,10 +89,10 @@ public class BaseClass {
 	/////////////////////////ScrenShotetaker///////////////////////
 	
 	public static String CaptureScreenShot()
-	{   
+	{   String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		TakesScreenshot takesScreenshot= (TakesScreenshot)driver;
 	    File sourceFile=takesScreenshot.getScreenshotAs(OutputType.FILE);
-	    File targetFile= new File(System.getProperty("user.dir")+"\\Reports\\screenshots\\"+"ss.png");
+	    File targetFile= new File(System.getProperty("user.dir")+"\\Reports\\screenshots\\"+timestamp+"ss.png");
 		sourceFile.renameTo(targetFile);
 		return System.getProperty("user.dir")+"\\Reports\\screenshots\\"+"ss.png";
 		

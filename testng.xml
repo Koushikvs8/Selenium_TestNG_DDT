@@ -8,9 +8,9 @@
   <parameter name="browserTestNG" value="chrome"/>
     <classes>
 
-     
+      <class name="TestCases.TC1_FormFillingTestCases"/>
       <class name="TestCases.TC2_Blogger"/>
-      
+      <class name="TestCases.TC3_FormFillingDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

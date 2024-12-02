@@ -1,5 +1,5 @@
-17:15:14.510 [main] INFO  TestCases.TC2_Blogger - user is Navigated to Homepage
-17:15:14.603 [main] INFO  TestCases.TC2_Blogger - user clicked on the BloggerLink at Footer
-17:15:14.638 [main] INFO  TestCases.TC2_Blogger - user is navigated to Blogger page
-17:15:18.239 [main] INFO  TestCases.TC2_Blogger - user is able to see the homepage of Blogger page
-17:15:18.517 [main] INFO  TestCases.TC2_Blogger - the Execution is endedand is launched for specfic to this case"
+17:24:41.045 [main] INFO  TestCases.TC2_Blogger - user is Navigated to Homepage
+17:24:41.164 [main] INFO  TestCases.TC2_Blogger - user clicked on the BloggerLink at Footer
+17:24:41.196 [main] INFO  TestCases.TC2_Blogger - user is navigated to Blogger page
+17:24:44.204 [main] INFO  TestCases.TC2_Blogger - user is able to see the homepage of Blogger page
+17:24:44.496 [main] INFO  TestCases.TC2_Blogger - the Execution is endedand is launched for specfic to this case"
